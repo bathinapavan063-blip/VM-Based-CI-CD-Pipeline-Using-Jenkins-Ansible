@@ -3,13 +3,13 @@ VM-Based CI/CD Pipeline Using Jenkins & Ansible
 Project: VM Based CI/CD Pipeline using Jenkins & Ansible
 
 Tools Used:
-AWS EC2
-Jenkins
-Maven
-SonarQube
-JFrog Artifactory
-Ansible
-Apache Tomcat
+AWS EC2,
+Jenkins,
+Maven,
+SonarQube,
+JFrog Artifactory,
+Ansible,
+Apache Tomcat,
 Git
 
 Pipeline Flow:
