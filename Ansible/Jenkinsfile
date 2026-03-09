@@ -19,7 +19,7 @@ pipeline{
 	}
        stage('Git Checkout') {
             steps{
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/devopscloudtrainer25/Project-Management.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/bathinapavan063-blip/VM-Based-CI-CD-Pipeline-Using-Jenkins-Ansible.git']]])
             }
         }
         stage('build') {
